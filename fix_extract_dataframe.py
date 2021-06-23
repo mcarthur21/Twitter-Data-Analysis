@@ -15,7 +15,7 @@ def read_json(json_file: str)->list:
     """
     
     tweets_data = []
-    for tweets in open(json_file,'r'):
+    for tweets in open(json_file,'python'):
         tweets_data.append(json.loads(tweets))
     
     
